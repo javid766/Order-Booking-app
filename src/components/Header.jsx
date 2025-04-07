@@ -15,10 +15,10 @@ function Header(){
                 <input type="text" className={header.input} placeholder="search product" />
             </div>
             <div className="flex justify-between w-80">
-                <button onClick={()=>setShow(!show)} className={`${header.dropdown} relative`} >English
+                <button onClick={()=>setShow(!show)} className={`${header.dropdown} relative`} ><i className="fa fa-flag"></i>English
                 <span> V</span> {show && <Dropdown />} </button>
-                <p className={header.dropdown}><i></i>Favorite</p>
-                <p className={header.dropdown}><i></i>Account</p>
+                <p className={header.dropdown}><i className="fa fa-heart"></i>Favorite</p>
+                <p className={header.dropdown}><i className="fa fa-user"></i>Account</p>
             </div>
             
         </div>
