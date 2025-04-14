@@ -11,15 +11,19 @@ function Footer() {
 
     {
       text: "FAQ",
+      url:"/page/faq",
     },
     {
       text: "Return & Exchange",
+      url:"/page/return-and-exchange",
     },
     {
       text: "Delivery",
+      url:"/page/delivery",
     },
     {
       text: "Contact us",
+      url:"/page/contact-us",
     },
   ];
   const legal = [
@@ -28,15 +32,19 @@ function Footer() {
     },
     {
       text: "About Us",
+      url:"/page/about-us",
     },
     {
       text: "Cookie Policy",
+      url:"/page/cookies-policy",
     },
     {
       text: "Terms & Conditions",
+      url:"/page/terms-and-conditions",
     },
     {
       text: "Privacy Policy",
+      url:"/page/privacy-policy",
     },
   ];
   const contact = [
@@ -98,17 +106,17 @@ function Footer() {
 const NavItems = ({ text }) => {
   return (
     <div>
-      {text.map((item) => {
+      {text.map((item, index) => {
         return (
-          <>
+          <div key={index}>
             <h3  className="text-white font-medium text-lg">{item.title}</h3>
             <div className="flex items-center " >
             <i className={`${item.icon} text-white mr-1`}></i>
-            <p className="text-white cursor-pointer hover:text-green-500  my-2">
+            <a href={item.url} className="text-white cursor-pointer hover:text-green-500  my-2">
               {item.text}
-            </p>
+            </a>
             </div>
-          </>
+          </div>
         );
       })}
     </div>

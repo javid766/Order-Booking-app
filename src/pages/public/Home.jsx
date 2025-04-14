@@ -1,13 +1,13 @@
 import React from "react";
-import Slider from "../components/home/Slider";
-import CategoryCarousel from "../components/home/CategoryCarousel";
-import PapularProducts from "../components/home/PapularProducts";
-import TrendingProducts from "../components/home/TrendingProducts";
-import FlashSaleProducts from "../components/home/FlashSaleProducts";
-import CategoryPromotions from "../components/home/CategoryPromotions";
-import promotionImage from "../assets/img/buy_fresh_&_organic_sea_food-preview.jpg";
-import PapularBrands from "../components/home/PapularBrands";
-import Standards from "../components/home/Standards";
+import Slider from "../../components/home/Slider";
+import CategoryCarousel from "../../components/home/CategoryCarousel";
+import PapularProducts from "../../components/home/PapularProducts";
+import TrendingProducts from "../../components/home/TrendingProducts";
+import FlashSaleProducts from "../../components/home/FlashSaleProducts";
+import CategoryPromotions from "../../components/home/CategoryPromotions";
+import promotionImage from "../../assets/img/buy_fresh_&_organic_sea_food-preview.jpg";
+import PapularBrands from "../../components/home/PapularBrands";
+import Standards from "../../components/home/Standards";
 
 function Home() {
     return (

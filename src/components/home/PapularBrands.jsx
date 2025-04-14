@@ -23,8 +23,8 @@ const PapularBrands = () => {
       <Swiper
         modules={[Navigation]}
         navigation={{
-          nextEl: '.custom-prev',
-          prevEl: '.custom-next',
+          nextEl: '.custom-next',
+          prevEl: '.custom-prev',
         }}
         spaceBetween={15}
         slidesPerView={6}

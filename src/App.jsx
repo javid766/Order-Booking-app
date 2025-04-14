@@ -16,8 +16,13 @@ function App() {
 					Main ? (
 
 						<>
-						<Header/>
-						<Nav/>
+						<header className="sm:mb-6 sm:shadow-xs bg-white">
+							<div className="container">
+								<Header/>
+								<Nav/>
+							</div>
+						</header>
+
 						<MainStack/>
 						<Footer/>
 						</>

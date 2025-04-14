@@ -13,23 +13,23 @@ function Nav() {
         </button>
         <ul className="flex  justify-between items-center ml-3">
           <li>
-            <a className={navbar.navLink} href="#">
+            <a className={navbar.navLink} href="/">
               Home
             </a>
           </li>
           <li>
-            <a className={navbar.navLink} href="#">
+            <a className={navbar.navLink} href="/offers">
               Offer
             </a>
           </li>
           <li>
-            <a className={navbar.navLink} href="#">
+            <a className={navbar.navLink} href="/daily-deals">
               Daily Deal
             </a>
           </li>
           <li>
-            <a className={navbar.navLink} href="#">
-              Flat Sale
+            <a className={navbar.navLink} href="/flash-sale">
+              Flash Sale
             </a>
           </li>
         </ul>
